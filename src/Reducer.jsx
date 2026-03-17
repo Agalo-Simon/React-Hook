@@ -20,6 +20,7 @@ const Reducer = () => {
     }
   };
   const [state, dispatch] = useReducer(reducer, initial);
+  
   return (
     <div>
       <h1>Count: {state.count}</h1>

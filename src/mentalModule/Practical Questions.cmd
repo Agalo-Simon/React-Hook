@@ -71,4 +71,27 @@ handling loading and error states
 filtering data
 working with React state and effects
 
-Answer
+
+2.=============================================================
+
+ create a simple react application that display a list of 
+ countries with their capitals
+ the application should have the following features the list of countries and capitals should be fetch from API.
+ the list should displays on the countriesPage
+ - Each country should display on a separate component.
+ - the user should be able to filter the list. 
+ - const BASE_URL = "https://restcountries.com/v3.1";
+
+ - const FILTERABLE_CAPITALS =[
+  'Tallin'
+  'helsiki'
+  'Stokholn'
+  'Oslo'
+ ]as const;
+ type Capital = (typEeOf FILTERABLE_CAPITALS) [number];
+ interface Country{
+  name:{
+    common:string;
+  },
+  capital:string;
+ }
